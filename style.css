@@ -12,7 +12,8 @@ nav {
     display: flex;
     justify-content: space-between; /* Aligns items to the left and right edges */
     align-items: center;
-    background-color: #000000;
+    background-color: transparent;
+    padding: 20px 40px;
 }
 
 .nav-logo {
@@ -31,5 +32,24 @@ nav {
     cursor: pointer;
     font-size: 14px;
     font-weight: 500;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
+
+#hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.886), rgba(0, 0, 0, 0.6)), url('./assets/Background\ image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
 

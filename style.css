@@ -1,1 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between; /* Aligns items to the left and right edges */
+    align-items: center;
+    background-color: #000000;
+}
+
+.nav-logo {
+    width: 148px;
+    height: 40px;
+}
+
+.signin-btn {
+    background-color: rgb(224, 44, 33);
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(224, 44, 33);
+    border-radius: 4px;
+    width: 75px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+

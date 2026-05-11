@@ -39,7 +39,7 @@ nav {
 }
 
 #hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.886), rgba(0, 0, 0, 0.6)), url('./assets/Background\ image.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/Background\ image.jpg'); /*dark overlay for better text visibility */
     background-size: cover;
     background-position: center;
     height: 100vh;

@@ -26,10 +26,10 @@ nav {
 }
 
 .signin-btn {
-    background-color: rgb(224, 44, 33);
+    background-color: rgb(229, 9, 20);
     color: rgb(255, 255, 255);
     border-style: solid;
-    border-color: rgb(224, 44, 33);
+    border-color: rgb(229, 9, 20);
     border-radius: 4px;
     width: 75px;
     height: 30px;
@@ -40,6 +40,11 @@ nav {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+}
+
+.signin-btn:hover {
+    background-color: rgb(193, 17, 25);
+    border-color: rgb(193, 17, 25);
 }
 
 #hero {
@@ -77,49 +82,98 @@ nav {
     width: 588px;
 }
 
-.cta div {
+.cta {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 8px;
     padding-top: 16px;
     width: 588px;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 
 .email-input {
-    background-color: transparent;
-    border: 1px solid rgba(67, 66, 66, 0.723);
+    background-color: rgba(22, 22, 22, 0.7);
+    border: 1px solid rgba(128, 128, 128, 0.7);
     border-radius: 4px;
     text-align: left;
     text-decoration-color: rgb(255, 255, 255);
     font-size: 16px;
     color: rgb(255, 255, 255);
-    padding-top: 24px;
-    padding-bottom: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 18px 16px;
     display: inline-flex;
     width: 400px;
+    outline: none; /*this removes the default blue outline when the input is focused */
 }
 
+.email-input::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 0.7; /* Adjust the opacity of the placeholder text */
+}
+
+/*get started button styles*/
+
 .cta button {
-    background-color: rgb(224, 44, 33);
+    background-color: rgb(229, 9, 20);
     color: rgb(255, 255, 255);
     border-style: solid;
-    border-color: rgb(224, 44, 33);
+    border-color: rgb(229, 9, 20);
     border-radius: 4px;
-    width: 150px;
-    height: 50px;
     cursor: pointer;
     font-size: 24px;
     font-weight: 500;
-    text-decoration: none;
-    display: inline-flex;
+    padding: 14px 24px;
+    white-space: nowrap; /* Prevents the button text from wrapping to the next line */  
+    display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
     height: 54px;
     width: 211.25px;
-    padding-left: 16px;
 }
-    
+
+.cta button:hover {
+    background-color: rgb(193, 17, 25);
+    border-color: rgb(193, 17, 25);
+}
+
+.trending {
+    background-color: #000000;
+    padding: 20px 148px;
+    color: rgb(255, 255, 255);
+}
+
+.carousel-container {
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+    height: 268px;
+    scrollbar-width: none;
+}
+
+.carousel-container::-webkit-scrollbar {
+    display: none;  /* Hide scrollbar for WebKit browsers */
+}
+
+.card {
+    min-width: 250px;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.rank {
+    font-size: 120px;
+    font-weight: 900;
+    position: absolute; 
+    bottom: -10px; /* Adjust this value to position the rank number vertically */
+    left: -10px; /* Adjust this value to position the rank number horizontally */
+    padding: 4px 8px;
+    border-radius: 4px;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    line-height: 1; /* This ensures the text doesn't have extra spacing */
+}

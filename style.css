@@ -8,12 +8,16 @@
 }
 
 nav {
-    position: relative;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width of the viewport */
     display: flex;
     justify-content: space-between; /* Aligns items to the left and right edges */
     align-items: center;
     background-color: transparent;
-    padding: 20px 40px;
+    padding: 20px 148px;
+    z-index: 10; /* Ensure the nav stays above the hero section */
 }
 
 .nav-logo {
@@ -39,6 +43,7 @@ nav {
 }
 
 #hero {
+    position: relative; /*Acts a wall for my nav to stay on top of the hero section */
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/Background\ image.jpg'); /*dark overlay for better text visibility */
     background-size: cover;
     background-position: center;
@@ -52,4 +57,69 @@ nav {
     padding: 20px;
 }
 
+.heading {
+    font-size: 56px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    text-align: center;
+    display: block;
+    height: 140px;
+    width: 588px;
+}
 
+.subheading {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 32px;
+    text-align: center;
+    display: block;
+    height: 25px;
+    width: 588px;
+}
+
+.cta div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 16px;
+    width: 588px;
+    margin-top: 0px;
+}
+
+.email-input {
+    background-color: transparent;
+    border: 1px solid rgba(67, 66, 66, 0.723);
+    border-radius: 4px;
+    text-align: left;
+    text-decoration-color: rgb(255, 255, 255);
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    padding-top: 24px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: inline-flex;
+    width: 400px;
+}
+
+.cta button {
+    background-color: rgb(224, 44, 33);
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(224, 44, 33);
+    border-radius: 4px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 54px;
+    width: 211.25px;
+    padding-left: 16px;
+}
+    

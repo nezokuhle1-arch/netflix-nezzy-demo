@@ -458,40 +458,40 @@ footer {
     nav {
         padding: 20px 40px; /* Reduce horizontal padding */
     }
-}
 
-.nav-logo {
-    width: 120px;
-    height: 32px;
-}
 
-/* Hero section adjustments */
-#hero h1 {
-    font-size: 32px; /* Reduce font size for smaller screens */
-    width: 100%; /* Allow the heading to take full width */
-}
+    .nav-logo {
+        width: 120px;
+        height: 32px;
+    }
 
-#hero p {
-    font-size: 16px; /* Reduce font size for smaller screens */
-}
+    /* Hero section adjustments */
+    #hero h1 {
+        font-size: 32px; /* Reduce font size for smaller screens */
+        width: 100%; /* Allow the heading to take full width */
+    }
 
-/* CTA - stack the input and button vertically on smaller screens */
-.cta {
-    flex-direction: column;
-    align-items: center;
-}
+    #hero p {
+        font-size: 16px; /* Reduce font size for smaller screens */
+    }
 
-.email-input {
-    width: 100%; /* Make the input take full width on smaller screens */
-    max-width: 400px; /* Optional: set a max width for larger screens */
-}
+    /* CTA - stack the input and button vertically on smaller screens */
+    .cta {
+        flex-direction: column;
+        align-items: center;
+    }
 
-.cta button {
-    width: 100%; /* Make the button take full width on smaller screens */
-    max-width: 400px; 
-}
+    .email-input {
+        width: 100%; /* Make the input take full width on smaller screens */
+        max-width: 400px; /* Optional: set a max width for larger screens */
+    }
 
-/* Trending - reduce padding */
+    .cta button {
+        width: 100%; /* Make the button take full width on smaller screens */
+        max-width: 400px; 
+    }
+
+    /* Trending - reduce padding */
     .trending {
         padding: 40px 40px;
     }
@@ -518,7 +518,7 @@ footer {
     footer {
         padding: 40px 40px;
     }
-
+}
 
 /* Mobile (< 768px) */
 @media screen and (max-width: 767px) {

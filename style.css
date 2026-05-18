@@ -141,10 +141,7 @@ nav {
     border-top-left-radius: 50% 100%;
     border-top-right-radius: 50% 100%;
     width: 100%;
-    border-image-repeat: stretch;
-    background-color: #000000;
-    background-repeat: repeat, repeat;
-    border-top-style: solid;
+    position: absolute;
 }
 
 .trending {
@@ -469,6 +466,7 @@ footer {
     #hero h1 {
         font-size: 32px; /* Reduce font size for smaller screens */
         width: 100%; /* Allow the heading to take full width */
+
     }
 
     #hero p {

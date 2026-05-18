@@ -24,3 +24,5 @@ This project recreates the Netflix South Africa landing page as part of my assig
 
 ## 📂 Project Structure# netflix-nezzy-demo
 This is a clone landing page of the Netflix website.
+
+**Live Demo**: https://sosoflix.netlify.app

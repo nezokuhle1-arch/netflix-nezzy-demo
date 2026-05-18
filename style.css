@@ -722,4 +722,11 @@ footer {
     .footer-links {
         grid-template-columns: 1fr;  /* Single column */
     }
+
+    @media screen and (max-width: 767px) {
+    .language-select {
+        font-size: 12px;
+        padding: 4px 24px 4px 8px;
+    }
+}
 }

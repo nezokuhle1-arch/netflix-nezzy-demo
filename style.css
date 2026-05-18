@@ -724,7 +724,7 @@ footer {
     }
 
     @media screen and (max-width: 767px) {
-    .language-select {
+    .footer-language-select {
         font-size: 12px;
         padding: 4px 24px 4px 8px;
     }

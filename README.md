@@ -25,4 +25,44 @@ This project recreates the Netflix South Africa landing page as part of my assig
 ## 📂 Project Structure# netflix-nezzy-demo
 This is a clone landing page of the Netflix website.
 
+netflix-landing-page/
+│
+├── index.html          # Main HTML file
+├── style.css           # All styling
+├── assets/             # Images, videos, favicon
+│   ├── Netflix_2015_logo.svg
+│   ├── Background image.jpg
+│   ├── Trailer1.mp4
+│   └── Favicon (1).png
+|   └── Slide images
+└── README.md           # This file
+
+## 📱 Responsive Breakpoints
+
+- **Desktop**: 1024px and above
+- **Tablet**: 768px - 1023px
+- **Mobile**: Below 768px
+
+## 🎓 Assignment Requirements Met
+
+1. Hero section with nav bar and banner (10 marks)  
+2. Get started section with input fields (5 marks)  
+3. Video element embedded (10 marks)  
+4. Organized code with comments and favicon (5 marks)  
+5. FAQ section with semantic HTML (13 marks)  
+6. Collapsible FAQs (2 marks)  
+7. Netflix-themed styling (10 marks)  
+
+**Bonus Features**:
+- Mobile responsive design with media queries
+- Language selector dropdown
+- Carousel navigation with arrow buttons
+- Hover effects throughout
+
+## 👨‍💻 Author
+
+Nezokuhe Tshukulwana  
+ZAIO Full Stack AI Engineering Course  
+[(https://github.com/nezokuhle1-arch/netflix-nezzy-demo.git)] | [https://www.linkedin.com/in/nezokuhle-tshukulwana-024972233?utm_source=share_via&utm_content=profile&utm_medium=member_android]
+
 **Live Demo**: https://sosoflix.netlify.app

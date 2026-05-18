@@ -1,3 +1,6 @@
+/* ============================================
+   NETFLIX LANDING PAGE - CSS STYLESHEET
+   ============================================ */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
@@ -7,6 +10,9 @@
     font-family: 'Inter', sans-serif;
 }
 
+/* ============================================
+   NAVIGATION BAR
+   ============================================ */
 nav {
     position: absolute; 
     top: 0;
@@ -84,6 +90,9 @@ nav {
     border-color: rgb(193, 17, 25);
 }
 
+/* ============================================
+   HERO SECTION
+   ============================================ */
 #hero {
     position: relative; /*Acts a wall for my nav to stay on top of the hero section */
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/Background\ image.jpg'); /*dark overlay for better text visibility */
@@ -181,12 +190,18 @@ nav {
     position: absolute;
 }
 
+/* ============================================
+   TRENDING NOW SECTION
+   ============================================ */
 .trending {
     background-color: #000000;
     padding: 20px 148px;
     color: rgb(255, 255, 255);
 }
 
+/* ============================================
+   CAROUSEL CONTAINER
+   ============================================ */
 .carousel-container {
     display: flex;
     overflow-x: scroll;
@@ -255,6 +270,9 @@ nav {
     line-height: 1; /* This ensures the text doesn't have extra spacing */
 }
 
+/* ============================================
+   FEATURES + VIDEO SECTION
+   ============================================ */
 .features {
     background-color: #000000;
     padding: 60px 148px;
@@ -300,7 +318,9 @@ nav {
     border-radius: 8px;
 }
 
-/* FAQ styles */
+/* ============================================
+   FAQ SECTION
+   ============================================ */
 
 .faq {
     background-color: #000000;
@@ -371,7 +391,9 @@ summary:hover {
     color: rgb(255, 255, 255);
 }
 
-/* Footer styles */
+/* ============================================
+   FOOTER
+   ============================================ */
 footer {
     background-color: #000000;
     color: rgba(255, 255, 255, 0.7);

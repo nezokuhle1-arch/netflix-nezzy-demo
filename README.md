@@ -61,7 +61,7 @@ netflix-landing-page/
 
 ## 👨‍💻 Author
 
-Nezokuhe Tshukulwana  
+Nezokuhle Tshukulwana  
 ZAIO Full Stack AI Engineering Course  
 [(https://github.com/nezokuhle1-arch/netflix-nezzy-demo.git)] | [https://www.linkedin.com/in/nezokuhle-tshukulwana-024972233?utm_source=share_via&utm_content=profile&utm_medium=member_android]
 
